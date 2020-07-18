@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MJ\\Repos\\watcher\\myWatcher\\MYWatcher\\MYWatcher.csproj": {}
+  },
+  "projects": {
+    "D:\\MJ\\Repos\\watcher\\myWatcher\\MYWatcher\\MYWatcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MJ\\Repos\\watcher\\myWatcher\\MYWatcher\\MYWatcher.csproj",
+        "projectName": "MYWatcher",
+        "projectPath": "D:\\MJ\\Repos\\watcher\\myWatcher\\MYWatcher\\MYWatcher.csproj",
+        "packagesPath": "C:\\Users\\stali\\.nuget\\packages\\",
+        "outputPath": "D:\\MJ\\Repos\\watcher\\myWatcher\\MYWatcher\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
